@@ -150,8 +150,8 @@ L Mechanical:MountingHole H?
 U 1 1 5E8FFEA3
 P 3850 3500
 AR Path="/5E8FFEA3" Ref="H?"  Part="1" 
-AR Path="/5E8FEA39/5E8FFEA3" Ref="H4"  Part="1" 
-F 0 "H4" H 3950 3546 50  0000 L CNN
+AR Path="/5E8FEA39/5E8FFEA3" Ref="H3"  Part="1" 
+F 0 "H3" H 3950 3546 50  0000 L CNN
 F 1 "MountingHole" H 3950 3455 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.1mm" H 3850 3500 50  0001 C CNN
 F 3 "~" H 3850 3500 50  0001 C CNN
@@ -170,7 +170,7 @@ AR Path="/5E8FFE49" Ref="K?"  Part="1"
 AR Path="/5E8FEA39/5E8FFE49" Ref="K1"  Part="1" 
 F 0 "K1" H 6280 3596 50  0000 L CNN
 F 1 "SRD-XXVDC-SL-C" H 6280 3505 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 6300 3500 50  0001 L CNN
+F 2 "Universal-Relay-Board:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 6300 3500 50  0001 L CNN
 F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 5850 3550 50  0001 C CNN
 	1    5850 3550
 	1    0    0    -1  
@@ -199,4 +199,29 @@ Text Label 6150 3250 1    50   ~ 0
 NO
 Text Label 5950 3250 1    50   ~ 0
 NC
+$Comp
+L Device:R R?
+U 1 1 5E94835D
+P 4800 5000
+F 0 "R?" H 4870 5046 50  0000 L CNN
+F 1 "R" H 4870 4955 50  0000 L CNN
+F 2 "" V 4730 5000 50  0001 C CNN
+F 3 "~" H 4800 5000 50  0001 C CNN
+	1    4800 5000
+	1    0    0    -1  
+$EndComp
+Connection ~ 4800 4850
+$Comp
+L power:GND #PWR?
+U 1 1 5E948910
+P 4800 5150
+AR Path="/5E948910" Ref="#PWR?"  Part="1" 
+AR Path="/5E8FEA39/5E948910" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4800 4900 50  0001 C CNN
+F 1 "GND" H 4805 4977 50  0000 C CNN
+F 2 "" H 4800 5150 50  0001 C CNN
+F 3 "" H 4800 5150 50  0001 C CNN
+	1    4800 5150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
