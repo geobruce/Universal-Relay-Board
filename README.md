@@ -14,4 +14,5 @@ This universal relay board is designed to be used.
 | 2N7002                | 1      | [100pcs ≃ €1.82](https://www.aliexpress.com/item/2029421500.html)                                                                             |      |        |
 | Screw terminal        | 1      | [100pcs ≃ €7.76](https://www.aliexpress.com/item/32658604595.html)                                                                            |      |        |
 | Pin header            | 1      | [400pins ≃ €1.8](https://www.aliexpress.com/item/4000597872384.html)                                                                          |      |        |
-| Relay 3V/5V/6V/9V/12V | 1      | [50pcs ≃ €15.24](https://www.aliexpress.com/item/32283519114.html)<br>[50pcs ≃ €25.23](https://www.aliexpress.com/item/4000386576222.html)   |
+| Relay 3V/5V/6V/9V/12V | 1      | [50pcs ≃ €15.24](https://www.aliexpress.com/item/32283519114.html)<br>[50pcs ≃ €25.23](https://www.aliexpress.com/item/4000386576222.html)    |
+| 10k resistor          | 1      | [100pcs ≃ €0.54](https://www.aliexpress.com/item/32979436610.html)                                                                                          |
